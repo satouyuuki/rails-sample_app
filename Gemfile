@@ -5,6 +5,8 @@ ruby '2.5.8'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
+gem 'bootstrap-sass'
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -52,6 +54,7 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
+  gem 'rails-controller-testing'
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome

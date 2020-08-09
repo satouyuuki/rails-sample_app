@@ -102,3 +102,9 @@ String
 アクティブサポートでrailsはrubyを拡張している
 
 エラスティックサーチ
+
+8/9
+パーシャルで肥大化したコードを分割することができる
+<%= render 'layout/shim' %>
+
+error 統合テスト時 add `gem 'rails-controller-testing'`
